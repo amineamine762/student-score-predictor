@@ -136,14 +136,7 @@ python train.py
 
 ### Terminal Output
 
-```
-Iteration    0: Cost 1.56e+03  dj_dw:  -5.832e+02, dj_db: -8.500e+01   w:  5.832e+00, b: 8.50000e-01
-Iteration  400: Cost 2.14e+01  dj_dw:  -1.203e-01, dj_db:  2.011e-02   w:  8.712e+00, b: 7.14500e+00
-...
-(w,b) found by gradient descent: (  9.1234,  5.8821)
-```
-
-![Terminal](model_screenshot/terminal.png)
+![Terminal](model_screenshot/20260310021400.png)
 
 ---
 
