@@ -1,10 +1,10 @@
-# 🎓 Predicting Student Scores — Linear Regression from Scratch
+#  Predicting Student Scores — Linear Regression from Scratch
 
 A simple yet complete implementation of **Linear Regression from scratch** using Python and NumPy — no scikit-learn, no shortcuts. The model predicts a student's exam score based on their daily study hours.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 > Given the number of hours a student studies per day, predict their exam score.
 
@@ -22,7 +22,7 @@ Where:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Predicting_student_Scores/
@@ -42,7 +42,7 @@ Predicting_student_Scores/
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### 1. `model.py` — The Engine
 
@@ -54,9 +54,9 @@ Predicting_student_Scores/
 | `gradient_descent(...)` | Iteratively updates `w` and `b` to minimize cost |
 
 ### 2. Cost Function (MSE)
-
+```
 $$J(w,b) = \frac{1}{2m} \sum_{i=0}^{m-1} (\hat{y}_i - y_i)^2$$
-
+```
 ### 3. Gradient Descent Update Rule
 
 ```
@@ -66,7 +66,7 @@ b = b - α · (∂J/∂b)
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 File: `student_scores.csv`
 
@@ -90,7 +90,7 @@ Hours_Study,Score
 
 ---
 
-## ⚙️ Hyperparameters
+##  Hyperparameters
 
 | Parameter | Value |
 |---|---|
@@ -101,7 +101,7 @@ Hours_Study,Score
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -124,7 +124,7 @@ python train.py
 
 ---
 
-## 📈 Output
+##  Output
 
 ### Regression Line
 
@@ -140,7 +140,7 @@ python train.py
 
 ---
 
-## 🔬 Implementation Details
+##  Implementation Details
 
 ### `compute_model_output`
 Iterates over all samples to compute `ŷᵢ = w·xᵢ + b` and returns the full prediction array.
@@ -160,7 +160,7 @@ Computes the gradient of the cost function:
 
 ---
 
-## 📉 Limitations
+##  Limitations
 
 - Single feature only (`Hours_Study`)
 - No train/test split — model is evaluated on training data
@@ -169,7 +169,7 @@ Computes the gradient of the cost function:
 
 ---
 
-## 🛠️ Possible Improvements
+##  Possible Improvements
 
 - [ ] Add train/test split and evaluation metrics (MAE, R²)
 - [ ] Normalize features for faster convergence
@@ -179,8 +179,8 @@ Computes the gradient of the cost function:
 
 ---
 
-## 👤 Author
+##  Author
 
-**Amine**  
+**Amine El-baydaouy**  
 Machine Learning — Linear Regression from Scratch  
-Feel free to ⭐ the repo if you found it useful!
+Feel free to the repo if you found it useful!

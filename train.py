@@ -33,13 +33,9 @@ ax1.set_xlabel('iteration step')  ;  ax2.set_xlabel('iteration step')
 plt.savefig('cost_function.png')
 
 print(f"(w,b) found by gradient descent: ({w_final:8.4f},{b_final:8.4f})")
-
-
-
-
-
-
-
+x_temp = 11
+f_temp = w_final * x_temp + b_final
+print("the prediction for x = 4.2 is : ", f_temp)
 
 
 
